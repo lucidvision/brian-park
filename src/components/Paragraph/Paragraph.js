@@ -5,7 +5,7 @@ import { colors, fontSizes } from 'styles'
 
 Paragraph.propTypes = {
   color: PropTypes.string,
-  size: PropTypes.size,
+  size: PropTypes.string,
   text: PropTypes.string.isRequired
 }
 

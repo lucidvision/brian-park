@@ -3,23 +3,23 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { colors } from 'styles'
 
-HeadingPrimary.propTypes = {
+HeadingSecondary.propTypes = {
   color: PropTypes.string,
   text: PropTypes.string.isRequired
 }
 
-HeadingPrimary.defaultProps = {
-  color: colors.primary,
+HeadingSecondary.defaultProps = {
+  color: colors.secondary,
   text: ''
 }
 
 const StyledHeading = styled.h1`
   color: ${props => props.color};
-  font-size: 4rem;
+  font-size: 2rem;
   backface-visibility: hidden;
 `
 
-export default function HeadingPrimary (props) {
+export default function HeadingSecondary (props) {
   const { text, ...rest } = props
   return (
     <StyledHeading {...rest}>{props.text}</StyledHeading>

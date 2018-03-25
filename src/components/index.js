@@ -1,25 +1,19 @@
 import BarSocialMedia from './Bar/BarSocialMedia'
-
 import HeadingPrimary from './Heading/HeadingPrimary'
-
-import AngellistIcon from './Icon/AngellistIcon'
-import EmailIcon from './Icon/EmailIcon'
-import FacebookIcon from './Icon/FacebookIcon'
-import GithubIcon from './Icon/GithubIcon'
-import LinkedinIcon from './Icon/LinkedinIcon'
-
+import HeadingSecondary from './Heading/HeadingSecondary'
 import ImageCircle from './Image/ImageCircle'
-
+import IconLabel from './Icon/IconLabel'
+import IconLink from './Icon/IconLink'
 import Paragraph from './Paragraph/Paragraph'
+import Skill from './Skill/Skill'
 
 export {
-  AngellistIcon,
   BarSocialMedia,
-  EmailIcon,
-  FacebookIcon,
-  GithubIcon,
   HeadingPrimary,
+  HeadingSecondary,
   ImageCircle,
-  LinkedinIcon,
-  Paragraph
+  IconLabel,
+  IconLink,
+  Paragraph,
+  Skill
 }

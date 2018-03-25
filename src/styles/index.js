@@ -1,7 +1,7 @@
 export const colors = {
   primary: '#333',
-  black: '#fff',
-  white: '#000'
+  black: '#000',
+  white: '#fff'
 }
 
 export const fontSizes = {

@@ -1,0 +1,35 @@
+import React from 'react'
+import PropTypes from 'prop-types'
+import styled from 'styled-components'
+import { colors } from 'styles'
+import { HeadingSecondary } from '..';
+
+IconLabel.propTypes = {
+  className: PropTypes.string.isRequired,
+  color: PropTypes.string,
+  label: PropTypes.string.isRequired
+}
+
+IconLabel.defaultProps = {
+  className: '',
+  color: colors.primary,
+  label: ''
+}
+
+const StyledSpan = styled.span`
+  text-align: center;
+`
+
+const StyledIcon = styled.i`
+  font-size: 6em;
+  color: ${props => props.color}
+`
+
+export default function IconLabel (props) {
+  return (
+    <StyledSpan>
+      <StyledIcon className={props.className} {...props} />
+      <HeadingSecondary text={props.label} />
+    </StyledSpan>
+  )
+}
