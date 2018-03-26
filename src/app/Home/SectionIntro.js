@@ -1,15 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import { HeadingPrimary, HeadingSecondary } from 'components'
+import { HeadingPrimary, HeadingSecondary, VideoCode } from 'components'
 import { colors } from 'styles'
 
 const StyledHeader = styled.header`
   height: 95vh;
   text-align: center;
-  background-image: linear-gradient(
-    to right bottom,
-    ${colors.gradientLight},
-    ${colors.gradientDark});
   background-size: cover;
   background-position: top;
   position: relative;
@@ -29,6 +25,7 @@ const StyledDiv = styled.div`
 export default function SectionIntro (props) {
   return (
     <StyledHeader>
+      <VideoCode />
       <StyledDiv>
         <HeadingPrimary color={colors.white} text={'Brian Park'} />
         <HeadingSecondary color={colors.white} text='Bringing products to market' />

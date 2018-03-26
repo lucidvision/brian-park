@@ -7,6 +7,7 @@ import IconLabel from './Icon/IconLabel'
 import IconLink from './Icon/IconLink'
 import Paragraph from './Paragraph/Paragraph'
 import Skill from './Skill/Skill'
+import VideoCode from './Video/VideoCode'
 
 export {
   BarSocialMedia,
@@ -17,5 +18,6 @@ export {
   IconLabel,
   IconLink,
   Paragraph,
-  Skill
+  Skill,
+  VideoCode
 }
