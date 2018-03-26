@@ -3,7 +3,8 @@ import styled from 'styled-components'
 import { BarSocialMedia } from 'components'
 
 const StyledSection = styled.section`
-  padding: 4rem;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
   display: flex;
   justify-content: center;
 `

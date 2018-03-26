@@ -12,8 +12,8 @@ ImageCircle.defaultProps = {
 
 const StyledDiv = styled.div`
   display: inline-block;
-  width: 15rem;
-  height: 15rem;
+  width: 12rem;
+  height: 12rem;
   overflow: hidden;
   clip-path: circle(50% at 50% 50%);
 `

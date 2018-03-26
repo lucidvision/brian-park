@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { colors } from 'styles'
+import { colors, fontSizes } from 'styles'
 
 HeadingSecondary.propTypes = {
   color: PropTypes.string,
@@ -9,14 +9,15 @@ HeadingSecondary.propTypes = {
 }
 
 HeadingSecondary.defaultProps = {
-  color: colors.secondary,
+  color: colors.primary,
   text: ''
 }
 
 const StyledHeading = styled.h1`
   color: ${props => props.color};
-  font-size: 2rem;
-  backface-visibility: hidden;
+  font-size: ${fontSizes.medium};
+  text-transform: uppercase;
+  letter-spacing: 1rem;
 `
 
 export default function HeadingSecondary (props) {

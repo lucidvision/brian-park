@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { colors } from 'styles'
-import { HeadingSecondary } from '..';
+import { HeadingTertiary } from '..';
 
 IconLabel.propTypes = {
   className: PropTypes.string.isRequired,
@@ -29,7 +29,7 @@ export default function IconLabel (props) {
   return (
     <StyledSpan>
       <StyledIcon className={props.className} {...props} />
-      <HeadingSecondary text={props.label} />
+      <HeadingTertiary color={props.color} text={props.label} />
     </StyledSpan>
   )
 }

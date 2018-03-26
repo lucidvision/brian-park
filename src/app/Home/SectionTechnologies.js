@@ -1,16 +1,25 @@
 import React from 'react'
 import styled from 'styled-components'
 import Technologies from './Technologies'
-import { HeadingPrimary, Paragraph } from 'components'
-import { utilities } from 'styles'
+import { HeadingSecondary, Paragraph } from 'components'
+import { colors, utilities } from 'styles'
 
 const StyledSection = styled.section`
-  padding: 10rem;
+  padding: 14rem 10rem;
+  background-image: linear-gradient(
+    to right bottom,
+    ${colors.gradientLight},
+    ${colors.gradientDark});
+  background-size: cover;
+  transform: skewY(-7deg);
+    & > * {
+      transform: skewY(7deg);
+    }
 `
 
-const StyledHeadingPrimary = styled(HeadingPrimary)`
+const StyledHeadingSecondary = styled(HeadingSecondary)`
   text-align: center;
-  margin-bottom: ${utilities.marginBottomMedium}
+  margin-bottom: ${utilities.marginBottomLarge}
 `
 
 const StyledDiv = styled.div`
@@ -25,9 +34,9 @@ const StyledParagraph = styled(Paragraph)`
 export default function SectionTechnologies (props) {
   return (
     <StyledSection>
-      <StyledHeadingPrimary text='Technologies I use' />
+      <StyledHeadingSecondary color={colors.white} text='Technologies I use' />
       <StyledDiv>
-        <StyledParagraph text={'My primary focus is JavaScript. JavaScript\'s ubiquity makes it arguably the most productive programming language. It can be used for web, mobile and APIs. It has powerful frameworks, libraries and tools. It\'s first-class functions allows for a declarative programming style. JavaScript empowers me to move fast and break things.'} />
+        <StyledParagraph color={colors.white} text={'My primary focus is JavaScript. JavaScript\'s ubiquity makes it arguably the most productive programming language. It can be used for web, mobile and APIs. It has powerful frameworks, libraries and tools. It\'s first-class functions allows for a declarative programming style. JavaScript empowers me to move fast and break things.'} />
         <Technologies />
       </StyledDiv>
     </StyledSection>

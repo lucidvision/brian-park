@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { IconLabel } from 'components'
+import { colors } from 'styles'
 import _ from 'lodash'
 
 const StyledDiv = styled.div`
@@ -10,6 +11,7 @@ const StyledDiv = styled.div`
 const StyledTechnologyDiv = styled.div`
   display: flex;
   justify-content: space-between;
+  color: ${colors.white}
 `
 
 const row1Icons = [
@@ -46,10 +48,10 @@ export default function Technologies (props) {
   return (
     <StyledDiv>
       <StyledTechnologyDiv>
-        {_.map(row1Icons, (icon, index) => <IconLabel key={index} {...icon} />)}
+        {_.map(row1Icons, (icon, index) => <IconLabel color={colors.white} key={index} {...icon} />)}
       </StyledTechnologyDiv>
       <StyledTechnologyDiv>
-        {_.map(row2Icons, (icon, index) => <IconLabel key={index} {...icon} />)}
+        {_.map(row2Icons, (icon, index) => <IconLabel color={colors.white} key={index} {...icon} />)}
       </StyledTechnologyDiv>
     </StyledDiv>
   )
