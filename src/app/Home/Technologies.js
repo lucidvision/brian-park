@@ -5,13 +5,18 @@ import { colors } from 'styles'
 import _ from 'lodash'
 
 const StyledDiv = styled.div`
-  width: 40rem;
+  width: 50rem;
 `
 
 const StyledTechnologyDiv = styled.div`
   display: flex;
   justify-content: space-between;
   color: ${colors.white}
+`
+
+const StyledIconDiv = styled.div`
+  width: 20rem;
+  text-align: center;
 `
 
 const row1Icons = [
@@ -48,10 +53,10 @@ export default function Technologies (props) {
   return (
     <StyledDiv>
       <StyledTechnologyDiv>
-        {_.map(row1Icons, (icon, index) => <IconLabel color={colors.white} key={index} {...icon} />)}
+        {_.map(row1Icons, (icon, index) => <StyledIconDiv><IconLabel color={colors.white} key={index} {...icon} /></StyledIconDiv>)}
       </StyledTechnologyDiv>
       <StyledTechnologyDiv>
-        {_.map(row2Icons, (icon, index) => <IconLabel color={colors.white} key={index} {...icon} />)}
+        {_.map(row2Icons, (icon, index) => <StyledIconDiv><IconLabel color={colors.white} key={index} {...icon} /></StyledIconDiv>)}
       </StyledTechnologyDiv>
     </StyledDiv>
   )
