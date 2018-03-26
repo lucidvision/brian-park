@@ -9,7 +9,7 @@ export const colors = {
 export const fontSizes = {
   large: '6rem',
   medium: '4rem',
-  small: '2rem',
+  small: '2.2rem',
   default: '1.6rem'
 }
 

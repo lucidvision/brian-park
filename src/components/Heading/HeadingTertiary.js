@@ -16,7 +16,6 @@ HeadingTertiary.defaultProps = {
 const StyledHeading = styled.h1`
   color: ${props => props.color};
   font-size: ${fontSizes.small};
-
 `
 
 export default function HeadingTertiary (props) {

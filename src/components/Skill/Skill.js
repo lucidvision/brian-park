@@ -21,6 +21,7 @@ const StyledDiv = styled.div`
   flex-direction: column;
   justify-content: space-between;
   border-radius: 3px;
+  background-color: rgba(255, 255, 255, .8);
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .15);
 `
 

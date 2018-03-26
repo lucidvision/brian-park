@@ -17,7 +17,7 @@ const StyledHeading = styled.h1`
   color: ${props => props.color};
   font-size: ${fontSizes.medium};
   text-transform: uppercase;
-  letter-spacing: 1rem;
+  letter-spacing: .5rem;
 `
 
 export default function HeadingSecondary (props) {

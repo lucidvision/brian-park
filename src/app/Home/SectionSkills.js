@@ -22,15 +22,15 @@ const StyledHeadingSecondary = styled(HeadingSecondary)`
 const skills = [
   {
     title: 'Strategy',
-    content: 'Big goals demand efficient planning. I use the 80/20 rule and iterative development to produce results.'
+    content: 'A big goal drives efficient planning. I use the 80/20 rule and iterative development to deliver exceptional results.'
   },
   {
     title: 'Product',
-    content: 'Customer obsession inspires elegant design. I use feedback to craft beautiful interfaces that are simple to use.'
+    content: 'Customer obsession inspires elegant design. I use feedback to craft simple interfaces that are easy to use.'
   },
   {
     title: 'Technology',
-    content: 'Optimization drives continuous improvement. I use cutting-edge tools and frameworks for clean, scalable code.'
+    content: 'Optimization demands continuous improvement. I use cutting-edge tools and frameworks for clean, scalable code.'
   }
 ]
 

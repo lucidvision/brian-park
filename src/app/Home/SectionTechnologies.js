@@ -36,7 +36,7 @@ export default function SectionTechnologies (props) {
     <StyledSection>
       <StyledHeadingSecondary color={colors.white} text='Technologies I use' />
       <StyledDiv>
-        <StyledParagraph color={colors.white} text={'My primary focus is JavaScript. JavaScript\'s ubiquity makes it arguably the most productive programming language. It can be used for web, mobile and APIs. It has powerful frameworks, libraries and tools. It\'s first-class functions allows for a declarative programming style. JavaScript empowers me to move fast and break things.'} />
+        <StyledParagraph color={colors.white} text={'My primary focus is JavaScript. JavaScript\'s ubiquity makes it arguably the most productive programming language. It can be used for web, mobile and APIs. It has powerful frameworks, libraries and tools. Its first-class functions allows for a declarative programming style. JavaScript empowers me to move fast and break things.'} />
         <Technologies />
       </StyledDiv>
     </StyledSection>
