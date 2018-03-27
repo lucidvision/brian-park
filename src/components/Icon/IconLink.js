@@ -21,9 +21,10 @@ const StyledIcon = styled.i`
 `
 
 export default function IconLink (props) {
+  const { url, ...rest } = props
   return (
     <a href={props.url}>
-      <StyledIcon className={props.className} {...props} />
+      <StyledIcon {...rest} />
     </a>
   )
 }

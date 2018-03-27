@@ -5,7 +5,6 @@ import { colors } from 'styles'
 import _ from 'lodash'
 
 const StyledDiv = styled.div`
-  width: 40rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -36,7 +35,7 @@ const links = [
 
 export default function BarSocialMedia (props) {
   return (
-    <StyledDiv>
+    <StyledDiv {...props}>
       {_.map(links, (link, index) => <IconLink color={colors.white} key={index} {...link} />)}
     </StyledDiv>
   )

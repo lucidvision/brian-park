@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react'
+import styled from 'styled-components'
 import {
   SectionIntro,
   SectionSkills,
@@ -6,6 +7,25 @@ import {
   SectionWork,
   SectionContact
 } from './index'
+import { media } from 'styles'
+
+const StyledMain = styled.main`
+  & > * {
+    padding: 12rem 10rem;
+
+    ${media.tabLand`
+      padding: 12rem 6rem;
+    `}
+
+    ${media.tabPort`
+      padding: 10rem 4rem;
+    `}
+
+    ${media.phone`
+      padding: 8rem 2rem;
+    `}
+  }
+`
 
 class Home extends Component {
   render () {
@@ -14,11 +34,11 @@ class Home extends Component {
         <header>
           <SectionIntro />
         </header>
-        <main>
+        <StyledMain>
           <SectionSkills />
           <SectionTechnologies />
           <SectionWork />
-        </main>
+        </StyledMain>
         <footer>
           <SectionContact />
         </footer>

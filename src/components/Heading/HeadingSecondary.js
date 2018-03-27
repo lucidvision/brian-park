@@ -13,7 +13,7 @@ HeadingSecondary.defaultProps = {
   text: ''
 }
 
-const StyledHeading = styled.h1`
+const StyledHeading = styled.h2`
   color: ${props => props.color};
   font-size: ${fontSizes.medium};
   text-transform: uppercase;

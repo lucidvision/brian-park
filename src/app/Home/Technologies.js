@@ -1,11 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
 import { IconLabel } from 'components'
-import { colors } from 'styles'
+import { colors, media } from 'styles'
 import _ from 'lodash'
 
 const StyledDiv = styled.div`
-  width: 50rem;
+  width: 50%;
+
+  ${media.phone`
+    width: 100%;
+  `}
 `
 
 const StyledDivTechnology = styled.div`
@@ -15,7 +19,7 @@ const StyledDivTechnology = styled.div`
 `
 
 const StyledDivIcon = styled.div`
-  width: 20rem;
+  width: 100%;
   text-align: center;
 `
 

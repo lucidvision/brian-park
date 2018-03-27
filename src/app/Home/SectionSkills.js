@@ -1,22 +1,48 @@
 import React from 'react'
 import styled from 'styled-components'
 import { HeadingSecondary, Skill } from 'components'
-import { utilities } from 'styles'
+import { media, utilities } from 'styles'
 import _ from 'lodash'
 
 const StyledSection = styled.section`
-  padding: 12rem 10rem;
   margin-top: -10rem;
+
+  ${media.phone`
+    margin-top: -4rem;
+  `}
 `
 
 const StyledDiv = styled.div`
   display: flex;
   justify-content: space-between;
+
+  ${media.phone`
+    flex-direction: column;
+    align-items: center;
+
+    > * {
+      &:not(:last-child) {
+        margin-bottom: ${utilities.marginMedium};
+      }
+    }
+  `}
 `
 
 const StyledHeadingSecondary = styled(HeadingSecondary)`
   text-align: center;
-  margin-bottom: ${utilities.marginLarge}
+  margin-bottom: ${utilities.marginLarge};
+
+  ${media.phone`
+    margin-bottom: ${utilities.marginMedium};
+  `}
+`
+
+const StyledSkill = styled(Skill)`
+  width: 30%;
+
+  ${media.phone`
+    width: 90%;
+  `}
 `
 
 const skills = [
@@ -30,7 +56,7 @@ const skills = [
   },
   {
     title: 'Technology',
-    content: 'Optimization drives continuous improvement. I use cutting-edge frameworks and tools for clean, scalable code.'
+    content: 'Optimization drives continuous improvement. I use cutting-edge frameworks and tools to write clean, scalable code.'
   }
 ]
 
@@ -39,7 +65,7 @@ export default function SectionSkills (props) {
     <StyledSection>
       <StyledHeadingSecondary text='What I do' />
       <StyledDiv>
-        {_.map(skills, (skill, index) => <Skill key={index} {...skill} />)}
+        {_.map(skills, (skill, index) => <StyledSkill key={index} {...skill} />)}
       </StyledDiv>
     </StyledSection>
   )

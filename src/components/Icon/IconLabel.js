@@ -5,13 +5,11 @@ import { HeadingTertiary } from 'components'
 import { colors } from 'styles'
 
 IconLabel.propTypes = {
-  className: PropTypes.string.isRequired,
   color: PropTypes.string,
   label: PropTypes.string.isRequired
 }
 
 IconLabel.defaultProps = {
-  className: '',
   color: colors.primary,
   label: ''
 }
@@ -26,9 +24,10 @@ const StyledIcon = styled.i`
 `
 
 export default function IconLabel (props) {
+  const { color, label, ...rest } = props
   return (
     <StyledSpan>
-      <StyledIcon className={props.className} {...props} />
+      <StyledIcon {...rest} />
       <HeadingTertiary color={props.color} text={props.label} />
     </StyledSpan>
   )

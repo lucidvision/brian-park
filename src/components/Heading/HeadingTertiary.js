@@ -13,7 +13,7 @@ HeadingTertiary.defaultProps = {
   text: ''
 }
 
-const StyledHeading = styled.h1`
+const StyledHeading = styled.h3`
   color: ${props => props.color};
   font-size: ${fontSizes.small};
 `

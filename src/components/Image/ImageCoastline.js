@@ -9,6 +9,6 @@ const StyledImage = styled.img`
 
 export default function ImageCoastline (props) {
   return (
-    <StyledImage src={coastlineMobile} />
+    <StyledImage src={coastlineMobile} {...props} />
   )
 }

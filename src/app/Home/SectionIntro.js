@@ -1,7 +1,7 @@
 import React from 'react'
 import styled, { keyframes } from 'styled-components'
 import { HeadingPrimary, VideoCode } from 'components'
-import { colors, fontSizes } from 'styles'
+import { colors, fontSizes, media } from 'styles'
 
 const StyledSection = styled.section`
   height: 95vh;
@@ -11,13 +11,18 @@ const StyledSection = styled.section`
   position: relative;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+  ${media.tabPort`
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+  `}
 `
 
 const StyledDiv = styled.div`
   position: absolute;
   top: 42%;
   left: 50%;
-  width: 100rem;
+  width: 100%;
   transform: translate(-50%, -50%);
   text-align: center;
 `
