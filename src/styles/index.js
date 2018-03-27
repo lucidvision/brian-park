@@ -20,7 +20,7 @@ export const screenSizes = {
 }
 
 export const utilities = {
-  marginBottomSmall: '1.5rem',
-  marginBottomMedium: '4rem',
-  marginBottomLarge: '8rem'
+  marginSmall: '1.5rem',
+  marginMedium: '4rem',
+  marginLarge: '8rem'
 }

@@ -1,10 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 import { IconLink } from 'components'
+import { colors } from 'styles'
 import _ from 'lodash'
 
 const StyledDiv = styled.div`
-  width: 30rem;
+  width: 40rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -36,7 +37,7 @@ const links = [
 export default function BarSocialMedia (props) {
   return (
     <StyledDiv>
-      {_.map(links, (link, index) => <IconLink key={index} {...link} />)}
+      {_.map(links, (link, index) => <IconLink color={colors.white} key={index} {...link} />)}
     </StyledDiv>
   )
 }

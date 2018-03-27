@@ -5,7 +5,7 @@ import { utilities } from 'styles'
 import _ from 'lodash'
 
 const StyledSection = styled.section`
-  padding: 14rem 10rem;
+  padding: 12rem 10rem;
   margin-top: -10rem;
 `
 
@@ -16,13 +16,13 @@ const StyledDiv = styled.div`
 
 const StyledHeadingSecondary = styled(HeadingSecondary)`
   text-align: center;
-  margin-bottom: ${utilities.marginBottomLarge}
+  margin-bottom: ${utilities.marginLarge}
 `
 
 const skills = [
   {
     title: 'Strategy',
-    content: 'A big goal drives efficient planning. I use the 80/20 rule and iterative development to deliver exceptional results.'
+    content: 'A big goal requires efficient planning. I use the 80/20 rule and iterative development to deliver exceptional results.'
   },
   {
     title: 'Product',
@@ -30,7 +30,7 @@ const skills = [
   },
   {
     title: 'Technology',
-    content: 'Optimization demands continuous improvement. I use cutting-edge tools and frameworks for clean, scalable code.'
+    content: 'Optimization drives continuous improvement. I use cutting-edge frameworks and tools for clean, scalable code.'
   }
 ]
 

@@ -8,13 +8,13 @@ const StyledDiv = styled.div`
   width: 50rem;
 `
 
-const StyledTechnologyDiv = styled.div`
+const StyledDivTechnology = styled.div`
   display: flex;
   justify-content: space-between;
   color: ${colors.white}
 `
 
-const StyledIconDiv = styled.div`
+const StyledDivIcon = styled.div`
   width: 20rem;
   text-align: center;
 `
@@ -52,12 +52,12 @@ const row2Icons = [
 export default function Technologies (props) {
   return (
     <StyledDiv>
-      <StyledTechnologyDiv>
-        {_.map(row1Icons, (icon, index) => <StyledIconDiv><IconLabel color={colors.white} key={index} {...icon} /></StyledIconDiv>)}
-      </StyledTechnologyDiv>
-      <StyledTechnologyDiv>
-        {_.map(row2Icons, (icon, index) => <StyledIconDiv><IconLabel color={colors.white} key={index} {...icon} /></StyledIconDiv>)}
-      </StyledTechnologyDiv>
+      <StyledDivTechnology>
+        {_.map(row1Icons, (icon, index) => <StyledDivIcon><IconLabel color={colors.white} key={index} {...icon} /></StyledDivIcon>)}
+      </StyledDivTechnology>
+      <StyledDivTechnology>
+        {_.map(row2Icons, (icon, index) => <StyledDivIcon><IconLabel color={colors.white} key={index} {...icon} /></StyledDivIcon>)}
+      </StyledDivTechnology>
     </StyledDiv>
   )
 }

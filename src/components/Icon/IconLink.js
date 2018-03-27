@@ -16,7 +16,7 @@ IconLink.defaultProps = {
 }
 
 const StyledIcon = styled.i`
-  font-size: 3em;
+  font-size: 3.5em;
   color: ${props => props.color}
 `
 

@@ -1,9 +1,9 @@
 import React from 'react'
 import styled, { keyframes } from 'styled-components'
-import { HeadingPrimary, HeadingSecondary, VideoCode } from 'components'
+import { HeadingPrimary, VideoCode } from 'components'
 import { colors, fontSizes } from 'styles'
 
-const StyledHeader = styled.header`
+const StyledSection = styled.section`
   height: 95vh;
   text-align: center;
   background-size: cover;
@@ -64,12 +64,12 @@ const AnimatedHeadingSub = styled(HeadingPrimary)`
 
 export default function SectionIntro (props) {
   return (
-    <StyledHeader>
+    <StyledSection>
       <VideoCode />
       <StyledDiv>
         <AnimatedHeadingPrimary color={colors.white} text={'Brian Park'} />
         <AnimatedHeadingSub color={colors.white} size={fontSizes.small} text='Bringing products to market' />
       </StyledDiv>
-    </StyledHeader>
+    </StyledSection>
   )
 }

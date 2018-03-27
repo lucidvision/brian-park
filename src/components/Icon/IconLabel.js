@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
+import { HeadingTertiary } from 'components'
 import { colors } from 'styles'
-import { HeadingTertiary } from '..';
 
 IconLabel.propTypes = {
   className: PropTypes.string.isRequired,
