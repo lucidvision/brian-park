@@ -4,8 +4,8 @@ import { BarSocialMedia } from 'components'
 import { colors } from 'styles'
 
 const StyledSection = styled.section`
-  padding-top: 14rem;
-  padding-bottom: 6rem;
+  padding-top: 12rem;
+  padding-bottom: 5rem;
   margin-top: -10rem;
   background-image: linear-gradient(
     to right bottom,
