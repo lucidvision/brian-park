@@ -57,10 +57,10 @@ export default function Technologies (props) {
   return (
     <StyledDiv>
       <StyledDivTechnology>
-        {_.map(row1Icons, (icon, index) => <StyledDivIcon><IconLabel color={colors.white} key={index} {...icon} /></StyledDivIcon>)}
+        {_.map(row1Icons, (icon, index) => <StyledDivIcon key={index}><IconLabel color={colors.white} {...icon} /></StyledDivIcon>)}
       </StyledDivTechnology>
       <StyledDivTechnology>
-        {_.map(row2Icons, (icon, index) => <StyledDivIcon><IconLabel color={colors.white} key={index} {...icon} /></StyledDivIcon>)}
+        {_.map(row2Icons, (icon, index) => <StyledDivIcon key={index}><IconLabel color={colors.white} {...icon} /></StyledDivIcon>)}
       </StyledDivTechnology>
     </StyledDiv>
   )

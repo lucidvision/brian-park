@@ -32,7 +32,7 @@ const StyledHeadingSecondary = styled(HeadingSecondary)`
   text-align: center;
   margin-bottom: ${utilities.marginLarge};
 
-  ${media.phone`
+  ${media.tabPort`
     margin-bottom: ${utilities.marginMedium};
   `}
 `

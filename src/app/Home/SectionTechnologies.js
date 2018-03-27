@@ -21,8 +21,8 @@ const StyledHeadingSecondary = styled(HeadingSecondary)`
   text-align: center;
   margin-bottom: ${utilities.marginLarge}
 
-  ${media.phone`
-    margin-bottom: ${utilities.marginMedium}
+  ${media.tabPort`
+    margin-bottom: ${utilities.marginMedium};
   `}
 `
 

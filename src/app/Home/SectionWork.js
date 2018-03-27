@@ -25,7 +25,15 @@ const StyledDiv = styled.div`
 `
 
 const StyledDivInfo = styled.div`
-  margin-top: 10rem;
+  margin-top: 8rem;
+
+  ${media.tabLand`
+    margin-top: 6rem;
+  `}
+
+  ${media.tabPort`
+    margin-top: 4rem;
+  `}
 
   ${media.phone`
     margin-top: 0;
@@ -50,7 +58,7 @@ export default function SectionWork (props) {
       <StyledDiv>
         <StyledDivInfo>
           <Paragraph text={'As CTO, I led the development of Coastline\'s "Harvest-on-Demand" platform, providing e-commerce and logistics automation for the seafood industry. The technology includes a mobile app, a web app and a web-services API.'} /><br />
-          <Paragraph text={'Coastline uses a cross-platform JavaScript stack powered by React, React-Native and Express to respond rapidly to customer feedback. Coastline also leverages powerful technologies like Stripe, SendGrid, Twilio, Routific, Heroku and Firebase to maximize its value proposition.'} /><br />
+          <Paragraph text={'Coastline uses cross-platform JavaScript powered by React, React-Native and Express to respond rapidly to customer feedback. Coastline also leverages powerful technologies like Stripe, SendGrid, Twilio, Routific, Heroku and Firebase to maximize its value proposition.'} /><br />
           <Paragraph text={'Through an iterative development process, Coastline delights customers with accurate design and product-market fit.'} /><br />
         </StyledDivInfo>
         <StyledImageCoastline />

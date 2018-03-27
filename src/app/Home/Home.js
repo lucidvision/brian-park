@@ -14,11 +14,11 @@ const StyledMain = styled.main`
     padding: 12rem 10rem;
 
     ${media.tabLand`
-      padding: 12rem 6rem;
+      padding: 12rem 8rem;
     `}
 
     ${media.tabPort`
-      padding: 10rem 4rem;
+      padding: 12rem 4rem;
     `}
 
     ${media.phone`
