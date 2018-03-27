@@ -56,7 +56,7 @@ const skills = [
   },
   {
     title: 'Technology',
-    content: 'Optimization drives continuous improvement. I use cutting-edge frameworks and tools to write clean, scalable code.'
+    content: 'Optimization drives continuous improvement. I use cutting-edge tools and frameworks to write clean, scalable code.'
   }
 ]
 
