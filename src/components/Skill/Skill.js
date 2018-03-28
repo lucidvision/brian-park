@@ -23,7 +23,7 @@ const StyledDiv = styled.div`
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .15);
 
   &:hover {
-    transform: translateY(-1.5rem) scale(1.03);
+    transform: scale(1.03);
   }
 
   & > h3 {
