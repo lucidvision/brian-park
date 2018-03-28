@@ -53,7 +53,7 @@ const row2Icons = [
   }
 ]
 
-export default function Technologies (props) {
+export default function BarTechnologies (props) {
   return (
     <StyledDiv>
       <StyledDivTechnology>
