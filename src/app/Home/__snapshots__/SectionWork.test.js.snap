@@ -1,0 +1,427 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SectionWork renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SectionWork />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Styled(HeadingSecondary)
+          text="Coastline Market"
+/>,
+        <styled.div>
+          <styled.div
+                    className="wow slideInLeft"
+          >
+                    <Paragraph
+                              color="rgba(0, 13, 85, 0.8)"
+                              size="1.8rem"
+                              text="As CTO, I led the development of Coastline's \\"Harvest-on-Demand\\" platform, providing e-commerce and logistics automation for the seafood industry. The technology includes a mobile app, a web app and a web-services API."
+                    />
+                    <br />
+                    <Paragraph
+                              color="rgba(0, 13, 85, 0.8)"
+                              size="1.8rem"
+                              text="Coastline uses cross-platform JavaScript powered by React, React-Native and Express to respond rapidly to customer feedback. Coastline also leverages powerful technologies like Stripe, SendGrid, Twilio, Routific, Heroku and Firebase to maximize its value proposition."
+                    />
+                    <br />
+                    <Paragraph
+                              color="rgba(0, 13, 85, 0.8)"
+                              size="1.8rem"
+                              text="Through an iterative development process, Coastline delights customers with accurate design and product-market fit."
+                    />
+                    <br />
+          </styled.div>
+          <Styled(ImageCoastline)
+                    className="wow slideInRight"
+          />
+</styled.div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "text": "Coastline Market",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <styled.div
+              className="wow slideInLeft"
+>
+              <Paragraph
+                            color="rgba(0, 13, 85, 0.8)"
+                            size="1.8rem"
+                            text="As CTO, I led the development of Coastline's \\"Harvest-on-Demand\\" platform, providing e-commerce and logistics automation for the seafood industry. The technology includes a mobile app, a web app and a web-services API."
+              />
+              <br />
+              <Paragraph
+                            color="rgba(0, 13, 85, 0.8)"
+                            size="1.8rem"
+                            text="Coastline uses cross-platform JavaScript powered by React, React-Native and Express to respond rapidly to customer feedback. Coastline also leverages powerful technologies like Stripe, SendGrid, Twilio, Routific, Heroku and Firebase to maximize its value proposition."
+              />
+              <br />
+              <Paragraph
+                            color="rgba(0, 13, 85, 0.8)"
+                            size="1.8rem"
+                            text="Through an iterative development process, Coastline delights customers with accurate design and product-market fit."
+              />
+              <br />
+</styled.div>,
+            <Styled(ImageCoastline)
+              className="wow slideInRight"
+/>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Paragraph
+                  color="rgba(0, 13, 85, 0.8)"
+                  size="1.8rem"
+                  text="As CTO, I led the development of Coastline's \\"Harvest-on-Demand\\" platform, providing e-commerce and logistics automation for the seafood industry. The technology includes a mobile app, a web app and a web-services API."
+/>,
+                <br />,
+                <Paragraph
+                  color="rgba(0, 13, 85, 0.8)"
+                  size="1.8rem"
+                  text="Coastline uses cross-platform JavaScript powered by React, React-Native and Express to respond rapidly to customer feedback. Coastline also leverages powerful technologies like Stripe, SendGrid, Twilio, Routific, Heroku and Firebase to maximize its value proposition."
+/>,
+                <br />,
+                <Paragraph
+                  color="rgba(0, 13, 85, 0.8)"
+                  size="1.8rem"
+                  text="Through an iterative development process, Coastline delights customers with accurate design and product-market fit."
+/>,
+                <br />,
+              ],
+              "className": "wow slideInLeft",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "rgba(0, 13, 85, 0.8)",
+                  "size": "1.8rem",
+                  "text": "As CTO, I led the development of Coastline's \\"Harvest-on-Demand\\" platform, providing e-commerce and logistics automation for the seafood industry. The technology includes a mobile app, a web app and a web-services API.",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "rgba(0, 13, 85, 0.8)",
+                  "size": "1.8rem",
+                  "text": "Coastline uses cross-platform JavaScript powered by React, React-Native and Express to respond rapidly to customer feedback. Coastline also leverages powerful technologies like Stripe, SendGrid, Twilio, Routific, Heroku and Firebase to maximize its value proposition.",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "rgba(0, 13, 85, 0.8)",
+                  "size": "1.8rem",
+                  "text": "Through an iterative development process, Coastline delights customers with accurate design and product-market fit.",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "className": "wow slideInRight",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Styled(HeadingSecondary)
+            text="Coastline Market"
+/>,
+          <styled.div>
+            <styled.div
+                        className="wow slideInLeft"
+            >
+                        <Paragraph
+                                    color="rgba(0, 13, 85, 0.8)"
+                                    size="1.8rem"
+                                    text="As CTO, I led the development of Coastline's \\"Harvest-on-Demand\\" platform, providing e-commerce and logistics automation for the seafood industry. The technology includes a mobile app, a web app and a web-services API."
+                        />
+                        <br />
+                        <Paragraph
+                                    color="rgba(0, 13, 85, 0.8)"
+                                    size="1.8rem"
+                                    text="Coastline uses cross-platform JavaScript powered by React, React-Native and Express to respond rapidly to customer feedback. Coastline also leverages powerful technologies like Stripe, SendGrid, Twilio, Routific, Heroku and Firebase to maximize its value proposition."
+                        />
+                        <br />
+                        <Paragraph
+                                    color="rgba(0, 13, 85, 0.8)"
+                                    size="1.8rem"
+                                    text="Through an iterative development process, Coastline delights customers with accurate design and product-market fit."
+                        />
+                        <br />
+            </styled.div>
+            <Styled(ImageCoastline)
+                        className="wow slideInRight"
+            />
+</styled.div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "text": "Coastline Market",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <styled.div
+                className="wow slideInLeft"
+>
+                <Paragraph
+                                color="rgba(0, 13, 85, 0.8)"
+                                size="1.8rem"
+                                text="As CTO, I led the development of Coastline's \\"Harvest-on-Demand\\" platform, providing e-commerce and logistics automation for the seafood industry. The technology includes a mobile app, a web app and a web-services API."
+                />
+                <br />
+                <Paragraph
+                                color="rgba(0, 13, 85, 0.8)"
+                                size="1.8rem"
+                                text="Coastline uses cross-platform JavaScript powered by React, React-Native and Express to respond rapidly to customer feedback. Coastline also leverages powerful technologies like Stripe, SendGrid, Twilio, Routific, Heroku and Firebase to maximize its value proposition."
+                />
+                <br />
+                <Paragraph
+                                color="rgba(0, 13, 85, 0.8)"
+                                size="1.8rem"
+                                text="Through an iterative development process, Coastline delights customers with accurate design and product-market fit."
+                />
+                <br />
+</styled.div>,
+              <Styled(ImageCoastline)
+                className="wow slideInRight"
+/>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Paragraph
+                    color="rgba(0, 13, 85, 0.8)"
+                    size="1.8rem"
+                    text="As CTO, I led the development of Coastline's \\"Harvest-on-Demand\\" platform, providing e-commerce and logistics automation for the seafood industry. The technology includes a mobile app, a web app and a web-services API."
+/>,
+                  <br />,
+                  <Paragraph
+                    color="rgba(0, 13, 85, 0.8)"
+                    size="1.8rem"
+                    text="Coastline uses cross-platform JavaScript powered by React, React-Native and Express to respond rapidly to customer feedback. Coastline also leverages powerful technologies like Stripe, SendGrid, Twilio, Routific, Heroku and Firebase to maximize its value proposition."
+/>,
+                  <br />,
+                  <Paragraph
+                    color="rgba(0, 13, 85, 0.8)"
+                    size="1.8rem"
+                    text="Through an iterative development process, Coastline delights customers with accurate design and product-market fit."
+/>,
+                  <br />,
+                ],
+                "className": "wow slideInLeft",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "color": "rgba(0, 13, 85, 0.8)",
+                    "size": "1.8rem",
+                    "text": "As CTO, I led the development of Coastline's \\"Harvest-on-Demand\\" platform, providing e-commerce and logistics automation for the seafood industry. The technology includes a mobile app, a web app and a web-services API.",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": "br",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "color": "rgba(0, 13, 85, 0.8)",
+                    "size": "1.8rem",
+                    "text": "Coastline uses cross-platform JavaScript powered by React, React-Native and Express to respond rapidly to customer feedback. Coastline also leverages powerful technologies like Stripe, SendGrid, Twilio, Routific, Heroku and Firebase to maximize its value proposition.",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": "br",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "color": "rgba(0, 13, 85, 0.8)",
+                    "size": "1.8rem",
+                    "text": "Through an iterative development process, Coastline delights customers with accurate design and product-market fit.",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": "br",
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "className": "wow slideInRight",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
