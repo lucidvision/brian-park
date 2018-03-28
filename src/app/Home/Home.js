@@ -30,7 +30,9 @@ const StyledMain = styled.main`
 
 class Home extends Component {
   componentDidMount () {
-    new WOW().init()
+    new WOW({
+      live: false
+    }).init()
   }
   render () {
     return (
