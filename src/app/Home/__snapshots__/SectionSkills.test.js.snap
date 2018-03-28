@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SectionSkills renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SectionSkills />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Styled(HeadingSecondary)
+          text="What I do"
+/>,
+        <styled.div
+          className="wow fadeInUp"
+>
+          <Styled(Skill)
+                    content="A big goal requires efficient planning. I use the 80/20 rule and iterative development to deliver exceptional results."
+                    title="Strategy"
+          />
+          <Styled(Skill)
+                    content="Customer obsession inspires elegant design. I use feedback to craft interfaces that are easy to use."
+                    title="Product"
+          />
+          <Styled(Skill)
+                    content="Optimization drives continuous improvement. I use cutting-edge tools and frameworks to write clean, scalable code."
+                    title="Technology"
+          />
+</styled.div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "text": "What I do",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Styled(Skill)
+              content="A big goal requires efficient planning. I use the 80/20 rule and iterative development to deliver exceptional results."
+              title="Strategy"
+/>,
+            <Styled(Skill)
+              content="Customer obsession inspires elegant design. I use feedback to craft interfaces that are easy to use."
+              title="Product"
+/>,
+            <Styled(Skill)
+              content="Optimization drives continuous improvement. I use cutting-edge tools and frameworks to write clean, scalable code."
+              title="Technology"
+/>,
+          ],
+          "className": "wow fadeInUp",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "class",
+            "props": Object {
+              "content": "A big goal requires efficient planning. I use the 80/20 rule and iterative development to deliver exceptional results.",
+              "title": "Strategy",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "class",
+            "props": Object {
+              "content": "Customer obsession inspires elegant design. I use feedback to craft interfaces that are easy to use.",
+              "title": "Product",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "class",
+            "props": Object {
+              "content": "Optimization drives continuous improvement. I use cutting-edge tools and frameworks to write clean, scalable code.",
+              "title": "Technology",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Styled(HeadingSecondary)
+            text="What I do"
+/>,
+          <styled.div
+            className="wow fadeInUp"
+>
+            <Styled(Skill)
+                        content="A big goal requires efficient planning. I use the 80/20 rule and iterative development to deliver exceptional results."
+                        title="Strategy"
+            />
+            <Styled(Skill)
+                        content="Customer obsession inspires elegant design. I use feedback to craft interfaces that are easy to use."
+                        title="Product"
+            />
+            <Styled(Skill)
+                        content="Optimization drives continuous improvement. I use cutting-edge tools and frameworks to write clean, scalable code."
+                        title="Technology"
+            />
+</styled.div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "text": "What I do",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Styled(Skill)
+                content="A big goal requires efficient planning. I use the 80/20 rule and iterative development to deliver exceptional results."
+                title="Strategy"
+/>,
+              <Styled(Skill)
+                content="Customer obsession inspires elegant design. I use feedback to craft interfaces that are easy to use."
+                title="Product"
+/>,
+              <Styled(Skill)
+                content="Optimization drives continuous improvement. I use cutting-edge tools and frameworks to write clean, scalable code."
+                title="Technology"
+/>,
+            ],
+            "className": "wow fadeInUp",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "class",
+              "props": Object {
+                "content": "A big goal requires efficient planning. I use the 80/20 rule and iterative development to deliver exceptional results.",
+                "title": "Strategy",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "class",
+              "props": Object {
+                "content": "Customer obsession inspires elegant design. I use feedback to craft interfaces that are easy to use.",
+                "title": "Product",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "class",
+              "props": Object {
+                "content": "Optimization drives continuous improvement. I use cutting-edge tools and frameworks to write clean, scalable code.",
+                "title": "Technology",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
