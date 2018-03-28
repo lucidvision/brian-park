@@ -13,6 +13,6 @@ describe('SectionContact', () => {
   })
 
   it('renders a styled social media bar', () => {
-    expect(sectionContact.find('Styled(BarSocialMedia)').exists()).toBe(true)
+    expect(sectionContact.find('Styled(BarSocialMedia)').exists()).toBeTruthy()
   })
 })

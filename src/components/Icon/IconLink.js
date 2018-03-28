@@ -4,13 +4,11 @@ import styled from 'styled-components'
 import { colors, fontSizes, media } from 'styles'
 
 IconLink.propTypes = {
-  className: PropTypes.string.isRequired,
   color: PropTypes.string,
   url: PropTypes.string.isRequired
 }
 
 IconLink.defaultProps = {
-  className: '',
   color: colors.primary,
   url: ''
 }

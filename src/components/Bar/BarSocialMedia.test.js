@@ -43,7 +43,7 @@ describe('BarSocialMedia', () => {
 
   describe('Social Media Links', () => {
     it('renders 5 links', () => {
-      expect(barSocialMedia.find('IconLink').length).toEqual(5)
+      expect(barSocialMedia.find('IconLink')).toHaveLength(5)
     })
 
     links.forEach((props, index) => {

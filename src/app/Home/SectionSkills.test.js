@@ -28,24 +28,24 @@ describe('SectionSkills', () => {
   })
 
   it('renders a secondary heading', () => {
-    expect(sectionSkills.find('Styled(HeadingSecondary)').props().text).toEqual('What I do')
+    expect(sectionSkills.find('Styled(HeadingSecondary)').props().text).toBe('What I do')
   })
 
   describe('Skills', () => {
     it('renders 3 skills', () => {
-      expect(sectionSkills.find('Styled(Skill)').length).toEqual(3)
+      expect(sectionSkills.find('Styled(Skill)')).toHaveLength(3)
     })
 
     it('renders strategy skill', () => {
-      expect(sectionSkills.find('Styled(Skill)').at(0).props()).toEqual(skills[0])
+      expect(sectionSkills.find('Styled(Skill)').at(0).props()).toMatchObject(skills[0])
     })
 
     it('renders product skill', () => {
-      expect(sectionSkills.find('Styled(Skill)').at(1).props()).toEqual(skills[1])
+      expect(sectionSkills.find('Styled(Skill)').at(1).props()).toMatchObject(skills[1])
     })
 
     it('renders technology skill', () => {
-      expect(sectionSkills.find('Styled(Skill)').at(2).props()).toEqual(skills[2])
+      expect(sectionSkills.find('Styled(Skill)').at(2).props()).toMatchObject(skills[2])
     })
   })
 })

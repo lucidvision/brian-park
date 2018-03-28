@@ -13,22 +13,22 @@ describe('Home', () => {
   })
 
   it('renders the intro section', () => {
-    expect(home.find('SectionIntro').exists()).toBe(true)
+    expect(home.find('SectionIntro').exists()).toBeTruthy()
   })
 
   it('renders the skills section', () => {
-    expect(home.find('SectionSkills').exists()).toBe(true)
+    expect(home.find('SectionSkills').exists()).toBeTruthy()
   })
 
   it('renders the technologies section', () => {
-    expect(home.find('SectionTechnologies').exists()).toBe(true)
+    expect(home.find('SectionTechnologies').exists()).toBeTruthy()
   })
 
   it('renders the work section', () => {
-    expect(home.find('SectionWork').exists()).toBe(true)
+    expect(home.find('SectionWork').exists()).toBeTruthy()
   })
 
   it('renders the contact section', () => {
-    expect(home.find('SectionContact').exists()).toBe(true)
+    expect(home.find('SectionContact').exists()).toBeTruthy()
   })
 })

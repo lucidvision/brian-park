@@ -48,7 +48,7 @@ describe('BarTechnologies', () => {
 
   describe('Technology Icons', () => {
     it('renders 6 icons', () => {
-      expect(barTechnologies.find('IconLabel').length).toEqual(6)
+      expect(barTechnologies.find('IconLabel')).toHaveLength(6)
     })
 
     icons.forEach((props, index) => {

@@ -13,14 +13,14 @@ describe('SectionIntro', () => {
   })
 
   it('renders the video component', () => {
-    expect(sectionIntro.find('VideoCode').exists()).toBe(true)
+    expect(sectionIntro.find('VideoCode').exists()).toBeTruthy()
   })
 
   it('renders a primary heading', () => {
-    expect(sectionIntro.find('Styled(HeadingPrimary)').at(0).props().text).toEqual('Brian Park')
+    expect(sectionIntro.find('Styled(HeadingPrimary)').at(0).props().text).toBe('Brian Park')
   })
 
   it('renders a sub heading', () => {
-    expect(sectionIntro.find('Styled(HeadingPrimary)').at(1).props().text).toEqual('Bringing products to market')
+    expect(sectionIntro.find('Styled(HeadingPrimary)').at(1).props().text).toBe('Bringing products to market')
   })
 })
