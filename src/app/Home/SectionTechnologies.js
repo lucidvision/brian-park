@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Technologies from './Technologies'
-import { HeadingSecondary, Paragraph } from 'components'
+import { HeadingSecondary, Paragraph, BarTechnologies } from 'components'
 import { colors, media, utilities } from 'styles'
 
 const StyledSection = styled.section`
@@ -49,9 +48,9 @@ export default function SectionTechnologies (props) {
   return (
     <StyledSection>
       <StyledHeadingSecondary color={colors.white} text='Technologies' />
-      <StyledDiv>
-        <StyledParagraph color={colors.white} text={'My primary focus is JavaScript. JavaScript\'s ubiquity makes it arguably the most productive programming language. It can be used for web, mobile and APIs. It has cutting-edge tools, libraries and frameworks. Its first-class functions allow for a declarative programming style. JavaScript empowers me to bring products to market fast.'} />
-        <Technologies />
+      <StyledDiv className='wow fadeIn'>
+        <StyledParagraph color={colors.white} text={'My primary focus is JavaScript. JavaScript\'s ubiquity makes it arguably the most productive programming language. It can be used for web, mobile and APIs. It has cutting-edge tools, libraries and frameworks. Its first-class functions facilitate a declarative programming style. JavaScript empowers me to bring products to market fast.'} />
+        <BarTechnologies />
       </StyledDiv>
     </StyledSection>
   )

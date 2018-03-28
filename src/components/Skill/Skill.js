@@ -22,6 +22,10 @@ const StyledDiv = styled.div`
   background-color: rgba(255, 255, 255, .8);
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .15);
 
+  &:hover {
+    transform: translateY(-1.5rem) scale(1.03);
+  }
+
   & > h3 {
     margin-bottom: ${utilities.marginSmall};
   }

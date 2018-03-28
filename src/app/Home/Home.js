@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import styled from 'styled-components'
+import { WOW } from 'wowjs'
 import {
   SectionIntro,
   SectionSkills,
@@ -28,6 +29,9 @@ const StyledMain = styled.main`
 `
 
 class Home extends Component {
+  componentDidMount () {
+    new WOW().init()
+  }
   render () {
     return (
       <Fragment>

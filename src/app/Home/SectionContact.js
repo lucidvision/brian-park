@@ -26,15 +26,19 @@ const StyledSection = styled.section`
 const StyledBarSocialMedia = styled(BarSocialMedia)`
   width: 40%;
 
+  ${media.tabLand`
+    width: 65%;
+  `}
+
   ${media.phone`
-    width: 80%;
+    width: 90%;
   `}
 `
 
 export default function SectionContact (props) {
   return (
     <StyledSection>
-      <StyledBarSocialMedia />
+      <StyledBarSocialMedia className='wow slideInUp' />
     </StyledSection>
   )
 }

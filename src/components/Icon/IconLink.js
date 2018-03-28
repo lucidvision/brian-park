@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { colors } from 'styles'
+import { colors, fontSizes, media } from 'styles'
 
 IconLink.propTypes = {
   className: PropTypes.string.isRequired,
@@ -16,8 +16,12 @@ IconLink.defaultProps = {
 }
 
 const StyledIcon = styled.i`
-  font-size: 3.5em;
+  font-size: ${fontSizes.medium};
   color: ${props => props.color}
+
+  ${media.tabPort`
+    font-size: ${fontSizes.large};
+  `}
 `
 
 export default function IconLink (props) {

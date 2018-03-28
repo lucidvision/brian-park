@@ -1,4 +1,5 @@
 import BarSocialMedia from './Bar/BarSocialMedia'
+import BarTechnologies from './Bar/BarTechnologies'
 import HeadingPrimary from './Heading/HeadingPrimary'
 import HeadingSecondary from './Heading/HeadingSecondary'
 import HeadingTertiary from './Heading/HeadingTertiary'
@@ -11,6 +12,7 @@ import VideoCode from './Video/VideoCode'
 
 export {
   BarSocialMedia,
+  BarTechnologies,
   HeadingPrimary,
   HeadingSecondary,
   HeadingTertiary,

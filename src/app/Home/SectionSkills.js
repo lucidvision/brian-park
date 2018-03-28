@@ -64,7 +64,7 @@ export default function SectionSkills (props) {
   return (
     <StyledSection>
       <StyledHeadingSecondary text='What I do' />
-      <StyledDiv>
+      <StyledDiv className='wow fadeInUp'>
         {_.map(skills, (skill, index) => <StyledSkill key={index} {...skill} />)}
       </StyledDiv>
     </StyledSection>

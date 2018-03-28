@@ -56,12 +56,12 @@ export default function SectionWork (props) {
     <section>
       <StyledHeadingSecondary text='Coastline Market' />
       <StyledDiv>
-        <StyledDivInfo>
+        <StyledDivInfo className='wow slideInLeft'>
           <Paragraph text={'As CTO, I led the development of Coastline\'s "Harvest-on-Demand" platform, providing e-commerce and logistics automation for the seafood industry. The technology includes a mobile app, a web app and a web-services API.'} /><br />
           <Paragraph text={'Coastline uses cross-platform JavaScript powered by React, React-Native and Express to respond rapidly to customer feedback. Coastline also leverages powerful technologies like Stripe, SendGrid, Twilio, Routific, Heroku and Firebase to maximize its value proposition.'} /><br />
           <Paragraph text={'Through an iterative development process, Coastline delights customers with accurate design and product-market fit.'} /><br />
         </StyledDivInfo>
-        <StyledImageCoastline />
+        <StyledImageCoastline className='wow slideInRight' />
       </StyledDiv>
     </section>
   )
