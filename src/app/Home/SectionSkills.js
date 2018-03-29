@@ -16,6 +16,11 @@ const StyledDiv = styled.div`
   display: flex;
   justify-content: space-between;
 
+  ${media.desktop`
+    max-width: 112.5rem;
+    margin: auto;
+  `}
+
   ${media.phone`
     flex-direction: column;
     align-items: center;

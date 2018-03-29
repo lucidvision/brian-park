@@ -15,12 +15,6 @@ export const fontSizes = {
   default: '1.8rem'
 }
 
-export const screenSizes = {
-  desktop: '112.5em',
-  tablet: '75em',
-  phone: '56.25em'
-}
-
 export const utilities = {
   marginSmall: '1.5rem',
   marginMedium: '4rem',
@@ -44,7 +38,7 @@ export const media = {
     }
   `,
   desktop: (...args) => css`
-    @media only screen and (min-width: 112.5em) {
+    @media only screen and (min-width: 92em) {
       ${css(...args)}
     }
   `
