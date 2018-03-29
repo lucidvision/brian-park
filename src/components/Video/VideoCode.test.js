@@ -1,11 +1,8 @@
 import React from 'react'
-import Enzyme, { shallow } from 'enzyme'
-import Adapter from 'enzyme-adapter-react-16'
+import { shallow } from 'enzyme'
 import VideoCode from './VideoCode'
 import videomp4 from 'assets/HelloWorld.mp4'
 import videowebm from 'assets/HelloWorld.webm'
-
-Enzyme.configure({adapter: new Adapter()})
 
 describe('VideoCode', () => {
   const videoCode = shallow(<VideoCode />)
@@ -19,14 +16,14 @@ describe('VideoCode', () => {
       expect(videoCode.find('source')).toHaveLength(2)
     })
 
-    it('renders a mp4 source', () => {
+    it('renders the code mp4 source', () => {
       expect(videoCode.find('source').at(0).props()).toEqual({
         src: videomp4,
         type: 'video/mp4'
       })
     })
 
-    it('renders a webm source', () => {
+    it('renders the code webm source', () => {
       expect(videoCode.find('source').at(1).props()).toEqual({
         src: videowebm,
         type: 'video/webm'

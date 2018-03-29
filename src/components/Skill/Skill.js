@@ -5,13 +5,13 @@ import { HeadingTertiary, Paragraph } from 'components'
 import { utilities } from 'styles'
 
 Skill.propTypes = {
-  title: PropTypes.string.isRequired,
-  content: PropTypes.string.isRequired
+  content: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired
 }
 
 Skill.defaultProps = {
-  title: '',
-  content: ''
+  content: '',
+  title: ''
 }
 
 const StyledDiv = styled.div`

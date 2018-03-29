@@ -1,231 +1,36 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`BarSocialMedia renders correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <BarSocialMedia />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        <IconLink
-          className="fab fa-linkedin"
-          color="#fff"
-          url="https://www.linkedin.com/in/lucidvision/"
-/>,
-        <IconLink
-          className="fab fa-angellist"
-          color="#fff"
-          url="https://angel.co/brian-park-11"
-/>,
-        <IconLink
-          className="fab fa-github"
-          color="#fff"
-          url="https://github.com/lucidvision"
-/>,
-        <IconLink
-          className="fab fa-facebook"
-          color="#fff"
-          url="https://www.facebook.com/Lucid.Vision"
-/>,
-        <IconLink
-          className="fa fa-envelope"
-          color="#fff"
-          url="mailto:brianpark25@gmail.com"
-/>,
-      ],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": "0",
-        "nodeType": "function",
-        "props": Object {
-          "className": "fab fa-linkedin",
-          "color": "#fff",
-          "url": "https://www.linkedin.com/in/lucidvision/",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "1",
-        "nodeType": "function",
-        "props": Object {
-          "className": "fab fa-angellist",
-          "color": "#fff",
-          "url": "https://angel.co/brian-park-11",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "2",
-        "nodeType": "function",
-        "props": Object {
-          "className": "fab fa-github",
-          "color": "#fff",
-          "url": "https://github.com/lucidvision",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "3",
-        "nodeType": "function",
-        "props": Object {
-          "className": "fab fa-facebook",
-          "color": "#fff",
-          "url": "https://www.facebook.com/Lucid.Vision",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "4",
-        "nodeType": "function",
-        "props": Object {
-          "className": "fa fa-envelope",
-          "color": "#fff",
-          "url": "mailto:brianpark25@gmail.com",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <IconLink
-            className="fab fa-linkedin"
-            color="#fff"
-            url="https://www.linkedin.com/in/lucidvision/"
-/>,
-          <IconLink
-            className="fab fa-angellist"
-            color="#fff"
-            url="https://angel.co/brian-park-11"
-/>,
-          <IconLink
-            className="fab fa-github"
-            color="#fff"
-            url="https://github.com/lucidvision"
-/>,
-          <IconLink
-            className="fab fa-facebook"
-            color="#fff"
-            url="https://www.facebook.com/Lucid.Vision"
-/>,
-          <IconLink
-            className="fa fa-envelope"
-            color="#fff"
-            url="mailto:brianpark25@gmail.com"
-/>,
-        ],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": "0",
-          "nodeType": "function",
-          "props": Object {
-            "className": "fab fa-linkedin",
-            "color": "#fff",
-            "url": "https://www.linkedin.com/in/lucidvision/",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "1",
-          "nodeType": "function",
-          "props": Object {
-            "className": "fab fa-angellist",
-            "color": "#fff",
-            "url": "https://angel.co/brian-park-11",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "2",
-          "nodeType": "function",
-          "props": Object {
-            "className": "fab fa-github",
-            "color": "#fff",
-            "url": "https://github.com/lucidvision",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "3",
-          "nodeType": "function",
-          "props": Object {
-            "className": "fab fa-facebook",
-            "color": "#fff",
-            "url": "https://www.facebook.com/Lucid.Vision",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "4",
-          "nodeType": "function",
-          "props": Object {
-            "className": "fa fa-envelope",
-            "color": "#fff",
-            "url": "mailto:brianpark25@gmail.com",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-      },
-    },
-  },
-}
+<styled.div>
+  <IconLink
+    className="fab fa-linkedin"
+    color="#fff"
+    key="0"
+    url="https://www.linkedin.com/in/lucidvision/"
+  />
+  <IconLink
+    className="fab fa-angellist"
+    color="#fff"
+    key="1"
+    url="https://angel.co/brian-park-11"
+  />
+  <IconLink
+    className="fab fa-github"
+    color="#fff"
+    key="2"
+    url="https://github.com/lucidvision"
+  />
+  <IconLink
+    className="fab fa-facebook"
+    color="#fff"
+    key="3"
+    url="https://www.facebook.com/Lucid.Vision"
+  />
+  <IconLink
+    className="fa fa-envelope"
+    color="#fff"
+    key="4"
+    url="mailto:brianpark25@gmail.com"
+  />
+</styled.div>
 `;

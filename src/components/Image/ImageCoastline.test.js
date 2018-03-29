@@ -1,10 +1,7 @@
 import React from 'react'
-import Enzyme, { shallow } from 'enzyme'
-import Adapter from 'enzyme-adapter-react-16'
+import { shallow } from 'enzyme'
 import ImageCoastline from './ImageCoastline'
 import coastlineMobile from 'assets/coastline-mobile.png'
-
-Enzyme.configure({adapter: new Adapter()})
 
 describe('ImageCoastline', () => {
   const imageCoastline = shallow(<ImageCoastline />)

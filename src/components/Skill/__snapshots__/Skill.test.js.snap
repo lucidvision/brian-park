@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skill renders correctly 1`] = `
+<Skill
+  content="Rainbows"
+  title="Unicorns"
+>
+  <styled.div>
+    <div
+      className="sc-gqjmRU kldQLE"
+    >
+      <HeadingTertiary
+        color="rgba(0, 13, 85, 0.8)"
+        text="Unicorns"
+      >
+        <styled.h3
+          color="rgba(0, 13, 85, 0.8)"
+        >
+          <h3
+            className="sc-bZQynM jZhXzy"
+            color="rgba(0, 13, 85, 0.8)"
+          >
+            Unicorns
+          </h3>
+        </styled.h3>
+      </HeadingTertiary>
+      <Paragraph
+        color="rgba(0, 13, 85, 0.8)"
+        size="1.8rem"
+        text="Rainbows"
+      >
+        <styled.p
+          color="rgba(0, 13, 85, 0.8)"
+          size="1.8rem"
+        >
+          <p
+            className="sc-iwsKbI iOZGO"
+            color="rgba(0, 13, 85, 0.8)"
+            size="1.8rem"
+          >
+            Rainbows
+          </p>
+        </styled.p>
+      </Paragraph>
+    </div>
+  </styled.div>
+</Skill>
+`;

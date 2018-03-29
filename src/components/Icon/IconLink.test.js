@@ -1,10 +1,7 @@
 import React from 'react'
-import Enzyme, { mount } from 'enzyme'
-import Adapter from 'enzyme-adapter-react-16'
+import { mount } from 'enzyme'
 import IconLink from './IconLink'
 import { colors } from 'styles'
-
-Enzyme.configure({adapter: new Adapter()})
 
 const createIconLink = (override) => {
   const props = {

@@ -1,181 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`SectionTechnologies renders correctly 1`] = `
-ShallowWrapper {
-  "length": 1,
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <SectionTechnologies />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": Array [
-        <Styled(HeadingSecondary)
-          color="#fff"
-          text="Technologies"
-/>,
-        <styled.div
-          className="wow fadeIn"
->
-          <Styled(Paragraph)
-                    color="#fff"
-                    text="My primary focus is JavaScript. JavaScript's ubiquity makes it arguably the most productive programming language. It can be used for web, mobile and APIs. It has cutting-edge tools, libraries and frameworks. Its first-class functions facilitate a declarative programming style. JavaScript empowers me to bring products to market fast."
-          />
-          <BarTechnologies />
-</styled.div>,
-      ],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "color": "#fff",
-          "text": "Technologies",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": Array [
-            <Styled(Paragraph)
-              color="#fff"
-              text="My primary focus is JavaScript. JavaScript's ubiquity makes it arguably the most productive programming language. It can be used for web, mobile and APIs. It has cutting-edge tools, libraries and frameworks. Its first-class functions facilitate a declarative programming style. JavaScript empowers me to bring products to market fast."
-/>,
-            <BarTechnologies />,
-          ],
-          "className": "wow fadeIn",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "color": "#fff",
-              "text": "My primary focus is JavaScript. JavaScript's ubiquity makes it arguably the most productive programming language. It can be used for web, mobile and APIs. It has cutting-edge tools, libraries and frameworks. Its first-class functions facilitate a declarative programming style. JavaScript empowers me to bring products to market fast.",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {},
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-        ],
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": Array [
-          <Styled(HeadingSecondary)
-            color="#fff"
-            text="Technologies"
-/>,
-          <styled.div
-            className="wow fadeIn"
->
-            <Styled(Paragraph)
-                        color="#fff"
-                        text="My primary focus is JavaScript. JavaScript's ubiquity makes it arguably the most productive programming language. It can be used for web, mobile and APIs. It has cutting-edge tools, libraries and frameworks. Its first-class functions facilitate a declarative programming style. JavaScript empowers me to bring products to market fast."
-            />
-            <BarTechnologies />
-</styled.div>,
-        ],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "color": "#fff",
-            "text": "Technologies",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": Array [
-              <Styled(Paragraph)
-                color="#fff"
-                text="My primary focus is JavaScript. JavaScript's ubiquity makes it arguably the most productive programming language. It can be used for web, mobile and APIs. It has cutting-edge tools, libraries and frameworks. Its first-class functions facilitate a declarative programming style. JavaScript empowers me to bring products to market fast."
-/>,
-              <BarTechnologies />,
-            ],
-            "className": "wow fadeIn",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "color": "#fff",
-                "text": "My primary focus is JavaScript. JavaScript's ubiquity makes it arguably the most productive programming language. It can be used for web, mobile and APIs. It has cutting-edge tools, libraries and frameworks. Its first-class functions facilitate a declarative programming style. JavaScript empowers me to bring products to market fast.",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {},
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-          ],
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-      },
-    },
-  },
-}
+<styled.section>
+  <Styled(HeadingSecondary)
+    color="#fff"
+    text="Technologies"
+  />
+  <styled.div
+    className="wow fadeIn"
+  >
+    <Styled(Paragraph)
+      color="#fff"
+      text="My primary focus is JavaScript. JavaScript's ubiquity makes it arguably the most productive programming language. It can be used for web, mobile and APIs. It has cutting-edge tools, libraries and frameworks. Its first-class functions facilitate a declarative programming style. JavaScript empowers me to bring products to market fast."
+    />
+    <BarTechnologies />
+  </styled.div>
+</styled.section>
 `;
