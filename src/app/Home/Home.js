@@ -12,7 +12,11 @@ import { media } from 'styles'
 
 const StyledMain = styled.main`
   & > * {
-    padding: 12rem 10rem;
+    padding: 14rem 10rem;
+
+    ${media.desktop`
+      padding: 18rem 10rem;
+    `}
 
     ${media.tabLand`
       padding: 12rem 8rem;

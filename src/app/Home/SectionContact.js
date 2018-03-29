@@ -16,6 +16,10 @@ const StyledSection = styled.section`
   -webkit-clip-path: polygon(0 0, 100% 50%, 100% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 50%, 100% 100%, 0 100%);
 
+  ${media.desktop`
+    margin-top: -16rem;
+  `}
+
   ${media.phone`
     padding-top: 10rem;
     -webkit-clip-path: polygon(0 0, 100% 35%, 100% 100%, 0 100%);
