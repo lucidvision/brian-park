@@ -6,7 +6,7 @@ exports[`SectionSkills renders correctly 1`] = `
     text="What I do"
   />
   <styled.div
-    className="wow fadeInUp"
+    className="wow slideInUp"
   >
     <Styled(Skill)
       content="A big goal requires efficient planning. I use the 80/20 rule and iterative development to deliver exceptional results."
