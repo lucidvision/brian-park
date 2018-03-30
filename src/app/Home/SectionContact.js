@@ -5,7 +5,7 @@ import { colors, media } from 'styles'
 
 const StyledSection = styled.section`
   padding-top: 12rem;
-  padding-bottom: 5rem;
+  padding-bottom: 4rem;
   margin-top: -14rem;
   display: flex;
   justify-content: center;
