@@ -13,7 +13,7 @@ const StyledSection = styled.section`
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
   ${media.tabPort`
-    height: 85vh;
+    height: 86vh;
   `}
 `
 

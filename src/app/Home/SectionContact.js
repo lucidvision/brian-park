@@ -6,7 +6,7 @@ import { colors, media } from 'styles'
 const StyledSection = styled.section`
   padding-top: 12rem;
   padding-bottom: 5rem;
-  margin-top: -10rem;
+  margin-top: -14rem;
   display: flex;
   justify-content: center;
   background-image: linear-gradient(
@@ -17,11 +17,12 @@ const StyledSection = styled.section`
   clip-path: polygon(0 0, 100% 50%, 100% 100%, 0 100%);
 
   ${media.desktop`
-    margin-top: -16rem;
+    margin-top: -18rem;
   `}
 
   ${media.phone`
     padding-top: 10rem;
+    padding-bottom: 3rem;
     -webkit-clip-path: polygon(0 0, 100% 35%, 100% 100%, 0 100%);
     clip-path: polygon(0 0, 100% 35%, 100% 100%, 0 100%);
   `}

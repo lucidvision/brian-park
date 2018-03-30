@@ -11,6 +11,8 @@ import {
 import { media } from 'styles'
 
 const StyledMain = styled.main`
+  overflow-x: hidden;
+
   & > * {
     padding: 14rem 10rem;
 
