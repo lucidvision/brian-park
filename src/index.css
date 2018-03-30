@@ -17,6 +17,10 @@
     font-family: sans-serif;
   }
 
+  .wow {
+    visibility: hidden;
+  }
+
   @media only screen and (min-width: 112.5em) {
     html {
       font-size: 75%;

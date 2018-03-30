@@ -19,7 +19,7 @@ const StyledDivTechnology = styled.div`
 `
 
 const StyledDivIcon = styled.div`
-  width: 100%;
+  flex: 1;
   text-align: center;
 `
 
