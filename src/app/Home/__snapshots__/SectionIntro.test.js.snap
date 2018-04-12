@@ -2,24 +2,26 @@
 
 exports[`SectionIntro renders correctly 1`] = `
 <styled.section>
-  <VideoCode />
   <styled.div>
-    <Styled(HeadingPrimary)
-      color="#fff"
-      text="Brian Park"
-    />
-    <Styled(HeadingPrimary)
-      color="#fff"
-      size="2.2rem"
-      text="Bringing products to market"
-    />
-    <a
-      href="#skills"
-    >
-      <styled.i
-        className="fas fa-angle-down"
+    <VideoCode />
+    <styled.div>
+      <Styled(HeadingPrimary)
+        color="#fff"
+        text="Brian Park"
       />
-    </a>
+      <Styled(HeadingPrimary)
+        color="#fff"
+        size="2.2rem"
+        text="Bringing products to market"
+      />
+      <a
+        href="#skills"
+      >
+        <styled.i
+          className="fas fa-angle-down"
+        />
+      </a>
+    </styled.div>
   </styled.div>
 </styled.section>
 `;

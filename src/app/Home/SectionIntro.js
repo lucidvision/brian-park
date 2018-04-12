@@ -4,6 +4,10 @@ import { HeadingPrimary, VideoCode } from 'components'
 import { colors, fontSizes, media } from 'styles'
 
 const StyledSection = styled.section`
+  height: 100vh;
+`
+
+const StyledHero = styled.div`
   height: 95vh;
   text-align: center;
   background-size: cover;
@@ -13,8 +17,7 @@ const StyledSection = styled.section`
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
   ${media.tabPort`
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    height: 85vh;
   `}
 `
 
@@ -51,22 +54,6 @@ const moveInRight = keyframes`
 
   80% {
     transform: translateX(-1rem);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-`
-
-const moveInUp = keyframes`
-  0% {
-    opacity: 0;
-    transform: translateY(10rem);
-  }
-
-  80% {
-    transform: translateY(-1rem);
   }
 
   100% {
@@ -113,12 +100,14 @@ const StyledArrow = styled.i`
 export default function SectionIntro (props) {
   return (
     <StyledSection>
-      <VideoCode />
-      <StyledDiv>
-        <AnimatedHeadingPrimary color={colors.white} text={'Brian Park'} />
-        <AnimatedHeadingSub color={colors.white} size={fontSizes.small} text='Bringing products to market' />
-        <a href='#skills'><StyledArrow className='fas fa-angle-down' /></a>
-      </StyledDiv>
+      <StyledHero>
+        <VideoCode />
+        <StyledDiv>
+          <AnimatedHeadingPrimary color={colors.white} text={'Brian Park'} />
+          <AnimatedHeadingSub color={colors.white} size={fontSizes.small} text='Bringing products to market' />
+          <a href='#skills'><StyledArrow className='fas fa-angle-down' /></a>
+        </StyledDiv>
+      </StyledHero>
     </StyledSection>
   )
 }
