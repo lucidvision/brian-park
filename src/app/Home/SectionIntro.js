@@ -89,7 +89,7 @@ const StyledArrow = styled.i`
 
   &:active {
     color: ${colors.gradientLight};
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
   }
 
   ${media.tabPort`
