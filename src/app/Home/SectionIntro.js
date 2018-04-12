@@ -94,6 +94,10 @@ const StyledArrow = styled.i`
 
   ${media.tabPort`
     font-size: 12rem;
+
+    &:hover {
+      color: ${colors.white};
+    }
   `}
 `
 
