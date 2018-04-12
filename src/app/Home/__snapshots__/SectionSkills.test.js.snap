@@ -1,12 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`SectionSkills renders correctly 1`] = `
-<styled.section>
+<styled.section
+  id="skills"
+>
   <Styled(HeadingSecondary)
     text="What I do"
   />
   <styled.div
-    className="wow slideInUp"
+    className="wow fadeInUp"
   >
     <Styled(Skill)
       content="A big goal requires efficient planning. I use the 80/20 rule and iterative development to deliver exceptional results."

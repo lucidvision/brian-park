@@ -13,13 +13,14 @@ const StyledSection = styled.section`
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
   ${media.tabPort`
-    height: 86vh;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
   `}
 `
 
 const StyledDiv = styled.div`
   position: absolute;
-  top: 42%;
+  top: 44%;
   left: 50%;
   width: 100%;
   transform: translate(-50%, -50%);
@@ -58,12 +59,55 @@ const moveInRight = keyframes`
   }
 `
 
+const moveInUp = keyframes`
+  0% {
+    opacity: 0;
+    transform: translateY(10rem);
+  }
+
+  80% {
+    transform: translateY(-1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+`
+
+const pulsate = keyframes`
+  0% {
+    transform: scaleX(1) scaleY(1);
+  }
+
+  50% {
+    transform: scaleX(1.2) scaleY(1.2);
+  }
+`
+
 const AnimatedHeadingPrimary = styled(HeadingPrimary)`
   animation: ${moveInLeft} 1s ease-out;
 `
 
 const AnimatedHeadingSub = styled(HeadingPrimary)`
   animation: ${moveInRight} 1s ease-out;
+`
+
+const StyledArrow = styled.i`
+  position: relative;
+  top: 20vh;
+  font-size: 8rem;
+  color: ${colors.white};
+  animation: ${pulsate} 1s infinite;
+
+  &:hover {
+    color: ${colors.gradientLight};
+    transition: all 0.5s ease;
+  }
+
+  ${media.tabPort`
+    font-size: 12rem;
+  `}
 `
 
 export default function SectionIntro (props) {
@@ -73,6 +117,7 @@ export default function SectionIntro (props) {
       <StyledDiv>
         <AnimatedHeadingPrimary color={colors.white} text={'Brian Park'} />
         <AnimatedHeadingSub color={colors.white} size={fontSizes.small} text='Bringing products to market' />
+        <a href='#skills'><StyledArrow className='fas fa-angle-down' /></a>
       </StyledDiv>
     </StyledSection>
   )

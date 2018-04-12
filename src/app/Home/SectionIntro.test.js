@@ -20,4 +20,8 @@ describe('SectionIntro', () => {
   it('renders a sub heading', () => {
     expect(sectionIntro.find('Styled(HeadingPrimary)').at(1).props().text).toBe('Bringing products to market')
   })
+
+  it('renders a cta arrow', () => {
+    expect(sectionIntro.find('a').props().children.props.className).toBe('fas fa-angle-down')
+  })
 })
