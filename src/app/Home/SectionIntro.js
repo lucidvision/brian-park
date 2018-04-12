@@ -87,17 +87,13 @@ const StyledArrow = styled.i`
   color: ${colors.white};
   animation: ${pulsate} 1s infinite;
 
-  &:hover {
+  &:active {
     color: ${colors.gradientLight};
     transition: all 0.5s ease;
   }
 
   ${media.tabPort`
     font-size: 12rem;
-
-    &:hover {
-      color: ${colors.white};
-    }
   `}
 `
 
