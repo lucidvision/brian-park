@@ -23,7 +23,7 @@ const StyledHero = styled.div`
 
 const StyledDiv = styled.div`
   position: absolute;
-  top: 44%;
+  top: 40%;
   left: 50%;
   width: 100%;
   transform: translate(-50%, -50%);
@@ -82,7 +82,7 @@ const AnimatedHeadingSub = styled(HeadingPrimary)`
 
 const StyledArrow = styled.i`
   position: relative;
-  top: 20vh;
+  bottom: 30vh;
   font-size: 8rem;
   color: ${colors.white};
   animation: ${pulsate} 1s infinite;
@@ -94,6 +94,7 @@ const StyledArrow = styled.i`
 
   ${media.tabPort`
     font-size: 12rem;
+    bottom: 22vh;
   `}
 `
 
@@ -105,8 +106,8 @@ export default function SectionIntro (props) {
         <StyledDiv>
           <AnimatedHeadingPrimary color={colors.white} text={'Brian Park'} />
           <AnimatedHeadingSub color={colors.white} size={fontSizes.small} text='Bringing products to market' />
-          <a href='#skills'><StyledArrow className='fas fa-angle-down' /></a>
         </StyledDiv>
+        <a href='#skills'><StyledArrow className='fas fa-angle-down' /></a>
       </StyledHero>
     </StyledSection>
   )
