@@ -57,7 +57,7 @@ const skills = [
   },
   {
     title: 'Product',
-    content: 'Customer obsession inspires elegant design. I use feedback to craft interfaces that are both valuable and easy to use.'
+    content: 'Customer obsession inspires elegant design. I use feedback to craft interfaces that are valuable and easy to use.'
   },
   {
     title: 'Technology',
