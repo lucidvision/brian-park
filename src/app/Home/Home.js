@@ -35,6 +35,9 @@ const StyledMain = styled.main`
 `
 
 class Home extends Component {
+  static PropTypes = {
+
+  }
   componentDidMount () {
     new WOW({
       live: false
